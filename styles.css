@@ -1,0 +1,128 @@
+body {
+    font-family: helvetica;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    color: seashell;
+}
+
+a {
+    color: seashell;
+    font-weight: 400;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+    #tea-cozy-logo {
+        height: 50px;
+        width: auto;
+        display: inline-flex;
+        padding: 10px;
+    }
+
+    #header-links {
+        display: inline-flex;
+        padding-right: 20px;
+        align-items: center;
+        width: 25%;
+        justify-content: space-between;
+
+
+    }
+
+    .header-link {
+        text-decoration: underline;
+        display: flex;
+    }
+
+.section-title {
+    background-color: black;
+    width: 100%;
+
+}
+
+#mission {
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+    background-image: url("images/mission-background.webp");
+    margin: 0 auto 50px auto;
+
+
+}
+
+#featured-tea {
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+    #featured-items {
+        display: inline-flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto 50px auto;
+
+    }
+
+    .item {
+        height: 200px;
+        width: 300px;
+        margin: 10px;
+    }
+
+   
+
+#locations {
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto 50px auto;
+    background-image: url("images/locations-background.webp");
+}
+    #locations-title {
+        display: inline-flex;
+        justify-content: center;
+        margin: 60px auto 0 auto;
+        padding: 0;
+    }
+
+    #locations-info {
+        display: inline-flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+    .location {
+        width: 300px;
+        height: 300px;
+        margin: 15px 20px;
+        background-color: black;
+        display: block;
+        line-height: 2.5em;
+    }
+
+        .location h3 {
+            line-height: .75em;
+        }
+
+#contact-info {
+    height: 200px;
+}
+
+footer {
+    padding: 20px;
+    text-align: left;
+}
