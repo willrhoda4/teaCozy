@@ -77,10 +77,15 @@ header {
 
     }
 
-    .item {
+    .featured-item img {
         height: 200px;
         width: 300px;
         margin: 10px;
+    }
+
+    .featured-item h4 {
+        margin: 0 auto 10px auto;
+        padding: 0;
     }
 
    
@@ -95,7 +100,6 @@ header {
         display: inline-flex;
         justify-content: center;
         margin: 60px auto 0 auto;
-        padding: 0;
     }
 
     #locations-info {
